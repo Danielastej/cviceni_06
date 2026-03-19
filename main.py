@@ -1,3 +1,5 @@
+# UKOL 1
+
 SPECIAL_SYMBOL = '!@#$%^&*()-_=+[]{};:,.?'
 
 def analyze_password(
@@ -36,6 +38,8 @@ def analyze_password(
     score_percent = ...
     return is_strong, score_percent, missing_rules
 
+
+# UKOL 2
 
 def load_signal_from_txt(path):
     with open(path, 'r') as file:
